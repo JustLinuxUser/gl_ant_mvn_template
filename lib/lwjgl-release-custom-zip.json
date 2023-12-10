@@ -1,11 +1,13 @@
 {
   "build": "release",
   "mode": "zip",
-  "selectedAddons": [],
+  "selectedAddons": [
+    "joml"
+  ],
   "platform": [
     "linux"
   ],
-  "descriptions": false,
+  "descriptions": true,
   "compact": false,
   "hardcoded": false,
   "javadoc": true,
@@ -15,11 +17,12 @@
   "language": "groovy",
   "contents": [
     "lwjgl",
-    "lwjgl-assimp",
     "lwjgl-glfw",
     "lwjgl-opengl",
-    "lwjgl-opengles",
-    "lwjgl-stb"
+    "lwjgl-stb",
+    "lwjgl-assimp",
+    "lwjgl-nfd",
+    "lwjgl-openal"
   ],
   "version": "3.3.3",
   "versionLatest": "3.3.3"
